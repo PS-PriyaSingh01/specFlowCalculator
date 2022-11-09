@@ -9,4 +9,4 @@ Scenario: Substract two numbers
 	Given the first number is 80
 	And the second number is 30
 	When the two numbers are substarcted
-	Then the result should be 40
+	Then the result should be 50
