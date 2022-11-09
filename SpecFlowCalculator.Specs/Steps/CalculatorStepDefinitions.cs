@@ -44,6 +44,13 @@ namespace SpecFlowCalculator.Specs.Steps
             addresult = firstnumber + secondnumber;
         }
 
+        [When("the two numbers are substarcted")]
+        public void WhenTheTwoNumbersAreSubstarcted()
+        {
+            // addresult = cal.Add();
+            addresult = firstnumber - secondnumber;
+        }
+
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(int result)
         {
